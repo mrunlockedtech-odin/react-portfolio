@@ -4,18 +4,23 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Resume from './pages/Resume/Resume';
 import Projects from './pages/Projects/Projects';
+import NavBar from './components/NavBar/NavBar';
 
 import './App.css';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/resume' element={<Resume />} />
-      <Route path='/projects' element={<Projects />} />
-    </Routes>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/projects' element={<Projects />} />
+      </Routes>
+    </>
+
   );
 }
 
