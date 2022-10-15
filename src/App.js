@@ -7,6 +7,7 @@ import Projects from './pages/Projects/Projects';
 import NavBar from './components/NavBar/NavBar';
 
 import './App.css';
+import ProjectDetails from './pages/Projects/ProjectDetails';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/projects/:projectDetails' element={<ProjectDetails />} />
       </Routes>
     </>
 
