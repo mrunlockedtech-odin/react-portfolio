@@ -1,4 +1,5 @@
-import {projects} from "../../data/projects"
+import ProjectList from "../../components/ProjectList/ProjectList";
+import { projects } from "../../data/projects"
 
 const Projects = () => {
   return (
@@ -6,9 +7,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <ul>
         {projects.map(project =>
-          <li>
-            {project.title}
-          </li>
+          <ProjectList project={project} />
         )}
       </ul>
     </>
