@@ -1,10 +1,16 @@
 const ProjectPreview = (props) => {
 
-  return ( 
+  return (
     <div>
-      <h3>{props.title}</h3>
+      <img src={props.image} alt={props.title} />
+
+      <section>
+        <h3>{props.title}</h3>
+        <button>Learn More</button>
+      </section>
+
     </div>
-   );
+  );
 }
- 
+
 export default ProjectPreview;
