@@ -3,7 +3,7 @@ const About = () => {
   return ( 
     <>
     <h1>Naveen Bhatti, Jr.</h1>
-    <img src={Picture} alt="naveen-profile" />
+    <img className='profileImage' src={Picture} alt="naveen-profile" />
     <p>
       I am an aspiring software engineer that desires to create processes that increase efficiency as much as possible for all stakeholders of my tasks. I want to push myself towards challenges that require me to increase my knowledge of the subject while completing the task at hand. My analytical mind set and background of IT systems and Electrical Engineering allow me to bring a perspective of both a business and engineering mindset.
     </p>

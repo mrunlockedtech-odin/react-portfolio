@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -24,8 +25,15 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.profileImage {
+  border-radius: 50%;
+  border: #eeeeee 5px solid;
+;
+}
+
+a {
+  color: #eeeeee;
 }
 img {
   width: 300px;
