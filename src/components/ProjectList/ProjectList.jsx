@@ -1,7 +1,9 @@
+import ProjectPreview from "./ProjectPreview";
+
 const ProjectList = (props) => {
   return (
     <li>
-      {props.project.title}
+      <ProjectPreview title={props.project.title} image={props.project.image}/>
     </li>
   );
 }
