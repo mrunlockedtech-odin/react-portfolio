@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     title:"Service Ticket Tracker",
     description:"Service Ticket Tracker is an app built to contain and interact with service desk tickets. The idea for this program was inspired by my past job as a Service Desk Support Specialist. The idea of managing tickets seemed to be the best application of my past working knowledge and my newly attained skills in CRUD.",
