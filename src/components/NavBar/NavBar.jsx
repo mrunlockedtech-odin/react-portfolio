@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <div className="container-fluid">
       <nav className="navbar navbar-expand-xl navbar-dark">
@@ -14,16 +14,16 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="toggleMobileMenu">
           <ul className="navbar-nav ms-auto text-center">
             <li>
-              <Link className="nav-link" to='/about'>About</Link>
+              <Link onClick={() => props.scrollToSection(props.aboutRef)} className="nav-link" to='/about'>About</Link>
             </li>
             <li>
-              <Link className="nav-link" to='/contact'>Contact</Link>
+              <Link onClick={() => props.scrollToSection(props.contactRef)} className="nav-link" to='/contact'>Contact</Link>
             </li>
             <li>
-              <Link className="nav-link" to='/resume'>Resume</Link>
+              <Link onClick={() => props.scrollToSection(props.resumeRef)} className="nav-link" to='/resume'>Resume</Link>
             </li>
             <li>
-              <Link className="nav-link" to='/projects'>Projects</Link>
+              <Link onClick={() => props.scrollToSection(props.projectsRef)} className="nav-link" to='/projects'>Projects</Link>
             </li>
           </ul>
         </div>

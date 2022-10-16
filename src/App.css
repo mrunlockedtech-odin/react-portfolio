@@ -28,7 +28,9 @@
   width: 90vw;
   margin: 3vh auto auto auto;
 }
-
+#homeProfile,#projectsProfile,#resumeProfile,#contactProfile,.aboutSection {
+  height: 100vh;
+}
 
 
 .profileImage {
