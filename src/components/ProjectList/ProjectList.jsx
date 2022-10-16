@@ -3,7 +3,7 @@ import ProjectPreview from "./ProjectPreview";
 const ProjectList = (props) => {
   return (
     <li>
-      <ProjectPreview title={props.project.title} image={props.project.image}/>
+      <ProjectPreview project={props.project}/>
     </li>
   );
 }

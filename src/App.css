@@ -33,7 +33,18 @@
 ul {
   list-style: none;
   padding: 0;
+  
 }
+.card {
+  width: 30vw;
+}
+
+@media screen and (max-width:760px) {
+  .card{
+    width: 80vw;
+  }
+}
+
 
 #homeProfile,#projectsProfile,#resumeProfile,#contactProfile,.aboutSection {
   height: 100vh;

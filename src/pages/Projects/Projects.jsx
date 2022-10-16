@@ -5,11 +5,13 @@ const Projects = (props) => {
   return (
     <div ref={props.projectsRef} id="projectsProfile">
       <h1>Projects</h1>
-      <ul>
-        {projects.map(project =>
-          <ProjectList project={project} />
-        )}
-      </ul>
+      <section id="projectBox">
+        <ul>
+          {projects.map(project =>
+            <ProjectList project={project} />
+          )}
+        </ul>
+      </section>
     </div>
   );
 }
