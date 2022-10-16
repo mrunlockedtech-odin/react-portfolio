@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -28,8 +27,21 @@
   width: 90vw;
   margin: 3vh auto auto auto;
 }
+.projectPreview{
+  margin: 5vh auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 #homeProfile,#projectsProfile,#resumeProfile,#contactProfile,.aboutSection {
   height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
 }
 
 

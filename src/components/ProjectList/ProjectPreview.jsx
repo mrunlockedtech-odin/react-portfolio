@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProjectPreview = (props) => {
 
   return (
-    <div>
+    <div className="projectPreview">
       <img src={props.image} alt={props.title} />
 
       <section>

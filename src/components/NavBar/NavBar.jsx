@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid fixed-top bg-dark">
       <nav className="navbar navbar-expand-xl navbar-dark">
-        <Link to='/' className="navbar-brand">NB</Link>
+        <Link to='/' className="navbar-brand" onClick={() => props.scrollToSection(props.homeRef)}>NB</Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target='#toggleMobileMenu' aria-controls="toggleMobileMenu" aria-expanded='false' aria-label="Toggle Navigation">
           <span className="navbar-toggler-icon"></span>
@@ -14,16 +14,16 @@ const NavBar = (props) => {
         <div className="collapse navbar-collapse" id="toggleMobileMenu">
           <ul className="navbar-nav ms-auto text-center">
             <li>
-              <Link onClick={() => props.scrollToSection(props.aboutRef)} className="nav-link" to='/about'>About</Link>
+              <Link onClick={() => props.scrollToSection(props.aboutRef)} className="nav-link" to='/about' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About</Link>
             </li>
             <li>
-              <Link onClick={() => props.scrollToSection(props.contactRef)} className="nav-link" to='/contact'>Contact</Link>
+              <Link onClick={() => props.scrollToSection(props.contactRef)} className="nav-link" to='/contact' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</Link>
             </li>
             <li>
-              <Link onClick={() => props.scrollToSection(props.resumeRef)} className="nav-link" to='/resume'>Resume</Link>
+              <Link onClick={() => props.scrollToSection(props.resumeRef)} className="nav-link" to='/resume' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Resume</Link>
             </li>
             <li>
-              <Link onClick={() => props.scrollToSection(props.projectsRef)} className="nav-link" to='/projects'>Projects</Link>
+              <Link onClick={() => props.scrollToSection(props.projectsRef)} className="nav-link" to='/projects' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Projects</Link>
             </li>
           </ul>
         </div>
