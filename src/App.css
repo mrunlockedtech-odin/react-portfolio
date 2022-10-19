@@ -39,6 +39,10 @@ ul {
   width: 30vw;
 }
 
+.card a {
+  margin: auto 10px;
+}
+
 @media screen and (max-width:760px) {
   .card{
     width: 80vw;
