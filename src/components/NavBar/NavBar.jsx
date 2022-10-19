@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
   return (
-    <div className="container-fluid fixed-top bg-dark">
-      <nav className="navbar navbar-expand-xl navbar-dark">
+    <div className="container-fluid fixed-top" style={{backgroundColor:'e3f2fd'}}>
+      <nav className="navbar navbar-expand-xl navbar-light">
         <Link to='/' className="navbar-brand" onClick={() => props.scrollToSection(props.homeRef)}>NB</Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target='#toggleMobileMenu' aria-controls="toggleMobileMenu" aria-expanded='false' aria-label="Toggle Navigation">
