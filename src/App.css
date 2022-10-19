@@ -27,9 +27,6 @@
   width: 90vw;
   margin: 3vh auto auto auto;
 }
-.projectPreview{
-  margin: 5vh auto;
-}
 ul {
   list-style: none;
   padding: 0;
@@ -37,37 +34,57 @@ ul {
 }
 .card {
   width: 30vw;
+  margin: 20px;
+  position: relative;
 }
 
 .card a {
   margin: auto 10px;
 }
+.card img{
+  height: 300px;
 
-@media screen and (max-width:760px) {
-  .card{
-    width: 80vw;
-  }
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
 }
 
 
+
+
 #homeProfile,#projectsProfile,#resumeProfile,#contactProfile,.aboutSection {
-  height: 100vh;
-  display: grid;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   justify-items: center;
   text-align: center;
 }
 
-
 .profileImage {
   border-radius: 50%;
   border: #eeeeee 5px solid;
-;
+}
+
+@media screen and (max-width:760px) {
+  .card{
+    width: 80vw;
+  }
+
+}
+
+@media screen and (min-width:761px){
+  #projectBox {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 a {
-  color: #eeeeee;
+  color: #351c75;
 }
 img {
   width: 300px;
