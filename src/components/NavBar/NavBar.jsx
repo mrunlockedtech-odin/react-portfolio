@@ -1,13 +1,7 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 
 const NavBar = (props) => {
-  const [navClick, setNavClick] = useState(true)
-
-  const onClickNav = () => {
-    setNavClick(!navClick)
-  }
 
   return (
     <div className="container-fluid fixed-top bg-light" style={{backgroundColor:'e3f2fd'}}>
@@ -18,7 +12,7 @@ const NavBar = (props) => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse " id="toggleMobileMenu" onClick={() => onClickNav()}>
+        <div className="collapse navbar-collapse " id="toggleMobileMenu">
           <ul className="navbar-nav ms-auto text-center">
             <li>
               <Link onClick={() => props.scrollToSection(props.aboutRef)} className="nav-link" to='/about' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About</Link>
