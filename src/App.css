@@ -42,7 +42,8 @@ ul {
   margin: auto 10px;
 }
 .card img{
-  height: 300px;
+  height: 30vh;
+  width: auto;
 
 }
 .card-body{
@@ -62,6 +63,9 @@ ul {
   justify-content: center;
   justify-items: center;
   text-align: center;
+}
+#homeProfile {
+  min-height: 95vh;
 }
 
 .profileImage {
