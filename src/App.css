@@ -112,3 +112,9 @@ img {
 .aboutDesc p {
   font-size: 1.1rem;
 }
+#contactProfile p, a{
+  font-size: 1.5rem;
+}
+#contactProfile h3 {
+  font-size: 2.2rem;
+}
