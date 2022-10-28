@@ -13,4 +13,12 @@ export const projects = [
     repositoryLink:"https://github.com/mrunlockedtech-odin/Connect-4-Naveen-Bhatti",
     deploymentLink:"https://connect4naveen.netlify.app/"
   },
+  {
+    title:"Plan.e",
+    description:"Plan.e is an app that allows users to create trip plans using crowd-sourced user activities. By making travelling a collaborative process, we want to make the experience for each of our users great.",
+    image:"https://github.com/thepika206/plane-front-end/blob/main/src/assets/PlaneLanding.png?raw=true",
+    repositoryLink:"https://github.com/thepika206/plane-front-end",
+    deploymentLink:"https://wifi-travelers-plane.fly.dev/"
+  },
+
 ]

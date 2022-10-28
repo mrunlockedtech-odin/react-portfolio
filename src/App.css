@@ -67,10 +67,15 @@ ul {
 #homeProfile {
   min-height: 95vh;
 }
-
+#homeProfile * {
+  margin: 1vh auto;
+}
+#contactProfile h1 {
+  font-size: 10vw;
+}
 .profileImage {
   border-radius: 50%;
-  border: #eeeeee 5px solid;
+  border: #351c75 5px solid;
 }
 
 @media screen and (max-width:760px) {
@@ -91,7 +96,7 @@ a {
   color: #351c75;
 }
 img {
-  width: 300px;
+  width: 50vh;
 }
 @keyframes App-logo-spin {
   from {

@@ -1,8 +1,8 @@
-import Picture from '../../assets/profile.jpeg'
+import Picture from '../../assets/aboutme.jpg'
 const About = (props) => {
   return (
     <div ref={props.aboutRef} className='aboutSection'>
-      <h1>Naveen Bhatti, Jr.</h1>
+      <h1>About Me</h1>
       <img className='profileImage' src={Picture} alt="naveen-profile" />
       <div className='aboutDesc'>
         <p>
