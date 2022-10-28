@@ -64,6 +64,9 @@ ul {
   justify-items: center;
   text-align: center;
 }
+.aboutSection{
+  max-height: 100vh;
+}
 #homeProfile {
   min-height: 95vh;
 }
@@ -105,4 +108,7 @@ img {
   to {
     transform: rotate(360deg);
   }
+}
+.aboutDesc p {
+  font-size: 1.1rem;
 }
