@@ -33,7 +33,7 @@ ul {
   
 }
 .card {
-  width: 30vw;
+  width: 20vw;
   margin: 20px;
   position: relative;
 }
@@ -42,7 +42,7 @@ ul {
   margin: auto 10px;
 }
 .card img{
-  height: 30vh;
+  height: auto;
   width: auto;
 
 }
@@ -51,7 +51,43 @@ ul {
   flex-direction: column;
   justify-content:space-around;
 }
+#projectBox{
+  margin: auto;
+  width: 80%;
+  display: grid;
+  padding: 15px;
+  align-self: center;
+  justify-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(1, 1fr);
+}
 
+@media only screen and (min-width: 760px) {
+  #projectBox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card{
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #projectBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card{
+    width: 30vw;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #projectBox {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card{
+    width: 20vw;
+  }
+}
 
 
 
@@ -85,15 +121,12 @@ ul {
   .card{
     width: 80vw;
   }
-
-}
-
-@media screen and (min-width:761px){
-  #projectBox {
-    display: flex;
-    flex-direction: row;
+  #projectBox{
+    justify-content: center;
   }
+
 }
+
 
 a {
   color: #351c75;
