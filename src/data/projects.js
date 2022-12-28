@@ -29,7 +29,7 @@ export const projects = [
     description:"Snack-Collector is a simple app that allows users to keep track of their snacks, the date they purchased them on, and dishes that may include them. Technologies: Django, CSS, Python, HTML, Javascript",
     image:Snack,
     repositoryLink:"https://github.com/mrunlockedtech-odin/snack-collector",
-    deploymentLink:"https://snack-collector.herokuapp.com/"
+    deploymentLink:"https://snackcollectornbj.up.railway.app/"
   },
 
 ]

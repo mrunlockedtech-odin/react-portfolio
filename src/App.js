@@ -1,4 +1,3 @@
-import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
@@ -8,7 +7,6 @@ import NavBar from './components/NavBar/NavBar';
 import { useRef } from 'react';
 
 import './App.css';
-import ProjectDetails from './pages/Projects/ProjectDetails';
 
 function App() {
   const home = useRef(null)
