@@ -24,12 +24,5 @@ export const projects = [
     repositoryLink:"https://github.com/thepika206/plane-front-end",
     deploymentLink:"https://wifi-travelers-plane.netlify.app/"
   },
-  {
-    title:"Snack-Collector",
-    description:"Snack-Collector is a simple app that allows users to keep track of their snacks, the date they purchased them on, and dishes that may include them. Technologies: Django, CSS, Python, HTML, Javascript",
-    image:Snack,
-    repositoryLink:"https://github.com/mrunlockedtech-odin/snack-collector",
-    deploymentLink:"https://snackcollectornbj.up.railway.app/"
-  },
 
 ]
