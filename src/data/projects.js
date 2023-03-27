@@ -1,7 +1,7 @@
 import Plane from '../assets/plane.png'
 import Serviceticket from '../assets/serviceticket.png'
 import Connect from '../assets/connect4.png'
-import Snack from '../assets/snackcollector.png'
+import Youth from '../assets/youth.png'
 export const projects = [
   {
     title:"Connect 4",
@@ -23,6 +23,13 @@ export const projects = [
     image:Plane,
     repositoryLink:"https://github.com/thepika206/plane-front-end",
     deploymentLink:"https://wifi-travelers-plane.netlify.app/"
+  },
+  {
+    title:"UCC Youth Merch Site",
+    description:"This site was created using React and Next.js in conjunction with Sanity. It was deployed on Vercel and was a project to aid in the sale of clothing merchandise for a local church Youth group",
+    image:Youth,
+    repositoryLink:"https://github.com/mrunlockedtech-odin/ucc-youth-merch",
+    deploymentLink:"https://ucc-youth-merch.vercel.app/"
   },
 
 ]
